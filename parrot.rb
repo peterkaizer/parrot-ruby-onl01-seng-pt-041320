@@ -8,9 +8,9 @@
 
 #parrot
 
-def parrot(phrase = "Squawk!", name = "Pretty bird!")
+def parrot(phrase = "Squawk!", "Pretty bird!")
   puts "Squawk!"
   return phrase
 end
 
-parrot
+parrot()
