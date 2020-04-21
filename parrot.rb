@@ -8,3 +8,9 @@ end
 
 parrot
 
+def parrot(phrase = "Squawk!", name = "Pretty bird!")
+  puts "Squawk!, #{name}"
+  return phrase
+end
+
+parrot
